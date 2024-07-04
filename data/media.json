@@ -1,0 +1,19 @@
+{
+    "media": [
+        {
+            "id": "556508-3663_GD",
+            "parent": "556508-3663",
+
+            "url": "https://www.gd.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        }
+    ]
+}
