@@ -1,11 +1,7 @@
 {
-	"concerns": [
-		{
-			"id": "556508-3663",
+	"556508-3663": {
+		"name": "Bonnier AB",
 
-			"name": "Bonnier AB",
-
-			"logo": "556508-3663.svg"
-		}
-	]
+		"logo": "556508-3663.svg"
+	}
 }

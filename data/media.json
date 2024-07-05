@@ -1,20 +1,18 @@
 {
-    "media": [
-        {
-            "id": "556508-3663_GD",
-            "parent": "556508-3663",
+	"556508-3663_GD": {
+		"parent": "556508-3663",
 
-			"logo": "556508-3663_GD.svg",
-            "url": "https://www.gd.se/",
-            "languages": [ "swe" ],
+		"logo": "556508-3663_GD.svg",
+		"url": "https://www.gd.se/",
+		"languages": [ "swe" ],
 
-            "prefer_short": false,
+		"prefer_short": false,
 
-            "web": true,
-            "paper": true,
-            
-            "free": false,
-            "paywall": true
-        }
-    ]
+		"web": true,
+		"paper": true,
+		
+		"free": false,
+		"paywall": true
+	}
+
 }
