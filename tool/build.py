@@ -2,6 +2,8 @@ import os
 import sqlite3
 import json
 
+# For the sake of testing
+
 def insertJson(path: str, cursor: sqlite3.Cursor):
     jsonData = json.load(open(path, 'r'))
 
