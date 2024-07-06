@@ -1,10 +1,46 @@
 {
 	"names": [
 		{
+            "id": "556508-3663_AB",
+
+			"name_swe": "Arbetarbladet",
+		},
+		{
             "id": "556508-3663_GD",
 
 			"name_swe": "Gefle Dagblad",
 			"name_short_swe": "GD"
+		},
+		{
+            "id": "556508-3663_HT",
+
+			"name_swe": "Hudiksvalls Tidning",
+			"name_short_swe": "HT"
+		},
+		{
+            "id": "556508-3663_LJP",
+
+			"name_swe": "Ljusdals-Posten",
+			"name_short_swe": "LJP"
+		},
+		{
+            "id": "556508-3663_LJ",
+
+			"name_swe": "Ljusnan",
+			"name_short_swe": "LJ"
+		},
+		{
+            "id": "556508-3663_SK",
+
+			"name_swe": "Söderhamns-Kuriren",
+			"name_short_swe": "SK"
+		},
+
+		{
+            "id": "556284-2970_DINLT",
+
+			"name_swe": "Din Lokaltidning",
+			"name_short_swe": "DINLT"
 		}
 	]
 }

@@ -1,10 +1,30 @@
 {
-    "media": [
+    "media": [ 
+		{
+            "id": "556508-3663_AB",
+            "parent": "556508-3663",
+
+			"logo": "556508-3663_AB.svg",
+			"logo_small": "556508-3663_AB_small.svg",
+
+            "url": "https://www.arbetarbladet.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        },
         {
             "id": "556508-3663_GD",
             "parent": "556508-3663",
 
 			"logo": "556508-3663_GD.svg",
+			"logo_small": "556508-3663_GD_small.svg",
+
             "url": "https://www.gd.se/",
             "languages": [ "swe" ],
 
@@ -15,6 +35,97 @@
             
             "free": false,
             "paywall": true
-        }
+        },
+        {
+            "id": "556508-3663_HT",
+            "parent": "556508-3663",
+
+			"logo": "556508-3663_HT.svg",
+			"logo_small": "556508-3663_HT_small.svg",
+
+            "url": "https://www.ht.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        },
+		{
+            "id": "556508-3663_LJP",
+            "parent": "556508-3663",
+
+			"logo": "556508-3663_LJP.svg",
+			"logo_small": "556508-3663_LJP_small.svg",
+
+            "url": "https://www.ljusdalsposten.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        },
+		{
+            "id": "556508-3663_LJ",
+            "parent": "556508-3663",
+
+			"logo": "556508-3663_LJ.svg",
+			"logo_small": "556508-3663_LJ_small.svg",
+
+            "url": "https://www.ljusnan.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        },
+		{
+            "id": "556508-3663_SK",
+            "parent": "556508-3663",
+
+			"logo": "556508-3663_SK.svg",
+			"logo_small": "556508-3663_SK_small.svg",
+
+            "url": "https://www.soderhamnskuriren.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        },
+
+		{
+            "id": "556284-2970_DINLT",
+            "org_num": "556284-2970",
+
+			"logo": "556284-2970_DINLT.svg",
+			"logo_small": "556284-2970_DINLT_small.svg",
+
+            "url": "https://www.dinlt.se/",
+            "languages": [ "swe" ],
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": true,
+            "paywall": false
+        },	
     ]
 }
