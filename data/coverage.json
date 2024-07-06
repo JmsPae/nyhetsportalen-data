@@ -1,193 +1,193 @@
 {
 	"coverage" : [
 		{
-			"media_id": "556508-3663_AB";
+			"media_id": "556508-3663_AB",
 			"area_id": "0319",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_AB";
+			"media_id": "556508-3663_AB",
 			"area_id": "0360",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_AB";
+			"media_id": "556508-3663_AB",
 			"area_id": "2101",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_AB";
+			"media_id": "556508-3663_AB",
 			"area_id": "2104",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_AB";
+			"media_id": "556508-3663_AB",
 			"area_id": "2180",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_AB";
+			"media_id": "556508-3663_AB",
 			"area_id": "2181",
 			"local_coverage": true
 		},
 
 		{
-			"media_id": "556508-3663_GD";
+			"media_id": "556508-3663_GD",
 			"area_id": "2101",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_GD";
+			"media_id": "556508-3663_GD",
 			"area_id": "2104",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_GD";
+			"media_id": "556508-3663_GD",
 			"area_id": "2180",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_GD";
+			"media_id": "556508-3663_GD",
 			"area_id": "2181",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_GD";
+			"media_id": "556508-3663_GD",
 			"area_id": "0319",
 			"local_coverage": true
 		},
 
 		{
-			"media_id": "556508-3663_HT";
+			"media_id": "556508-3663_HT",
 			"area_id": "2132",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_HT";
+			"media_id": "556508-3663_HT",
 			"area_id": "2184",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_HT";
+			"media_id": "556508-3663_HT",
 			"area_id": "2121",
 			"local_coverage": false
 		},
 		{
-			"media_id": "556508-3663_HT";
+			"media_id": "556508-3663_HT",
 			"area_id": "2161",
 			"local_coverage": false
 		},
 		{
-			"media_id": "556508-3663_HT";
+			"media_id": "556508-3663_HT",
 			"area_id": "2182",
 			"local_coverage": false
 		},
 		{
-			"media_id": "556508-3663_HT";
+			"media_id": "556508-3663_HT",
 			"area_id": "2183",
 			"local_coverage": false
 		},
 
 		{
-			"media_id": "556508-3663_LJP";
+			"media_id": "556508-3663_LJP",
 			"area_id": "2161",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556508-3663_LJP";
+			"media_id": "556508-3663_LJP",
 			"area_id": "2121",
 			"local_coverage": false
 		},
 		{
-			"media_id": "556508-3663_LJP";
+			"media_id": "556508-3663_LJP",
 			"area_id": "2132",
 			"local_coverage": false
 		},
 		{
-			"media_id": "556508-3663_LJP";
-			"area_id": "2182",
-			"local_coverage": false
-		},		
-		{
-			"media_id": "556508-3663_LJP";
-			"area_id": "2183",
-			"local_coverage": false
-		},
-		{
-			"media_id": "556508-3663_LJP";
-			"area_id": "2184",
-			"local_coverage": false
-		},
-
-		{
-			"media_id": "556508-3663_LJ";
-			"area_id": "2183",
-			"local_coverage": true
-		},
-		{
-			"media_id": "556508-3663_LJ";
-			"area_id": "2121",
-			"local_coverage": true
-		},
-		{
-			"media_id": "556508-3663_LJ";
-			"area_id": "2132",
-			"local_coverage": false
-		},
-		{
-			"media_id": "556508-3663_LJ";
-			"area_id": "2161",
-			"local_coverage": true
-		},
-		{
-			"media_id": "556508-3663_LJ";
+			"media_id": "556508-3663_LJP",
 			"area_id": "2182",
 			"local_coverage": false
 		},		
 		{
-			"media_id": "556508-3663_LJ";
-			"area_id": "2184",
-			"local_coverage": false
-		},
-
-		{
-			"media_id": "556508-3663_SK";
-			"area_id": "2182",
-			"local_coverage": true
-		},		
-		{
-			"media_id": "556508-3663_SK";
-			"area_id": "2121",
-			"local_coverage": false
-		},
-		{
-			"media_id": "556508-3663_SK";
-			"area_id": "2132",
-			"local_coverage": false
-		},
-		{
-			"media_id": "556508-3663_SK";
-			"area_id": "2161",
-			"local_coverage": true
-		},
-		{
-			"media_id": "556508-3663_SK";
+			"media_id": "556508-3663_LJP",
 			"area_id": "2183",
 			"local_coverage": false
 		},
 		{
-			"media_id": "556508-3663_SK";
+			"media_id": "556508-3663_LJP",
 			"area_id": "2184",
 			"local_coverage": false
 		},
 
 		{
-			"media_id": "556284-2970_DINLT";
+			"media_id": "556508-3663_LJ",
+			"area_id": "2183",
+			"local_coverage": true
+		},
+		{
+			"media_id": "556508-3663_LJ",
+			"area_id": "2121",
+			"local_coverage": true
+		},
+		{
+			"media_id": "556508-3663_LJ",
+			"area_id": "2132",
+			"local_coverage": false
+		},
+		{
+			"media_id": "556508-3663_LJ",
+			"area_id": "2161",
+			"local_coverage": true
+		},
+		{
+			"media_id": "556508-3663_LJ",
+			"area_id": "2182",
+			"local_coverage": false
+		},		
+		{
+			"media_id": "556508-3663_LJ",
+			"area_id": "2184",
+			"local_coverage": false
+		},
+
+		{
+			"media_id": "556508-3663_SK",
+			"area_id": "2182",
+			"local_coverage": true
+		},		
+		{
+			"media_id": "556508-3663_SK",
+			"area_id": "2121",
+			"local_coverage": false
+		},
+		{
+			"media_id": "556508-3663_SK",
+			"area_id": "2132",
+			"local_coverage": false
+		},
+		{
+			"media_id": "556508-3663_SK",
+			"area_id": "2161",
+			"local_coverage": true
+		},
+		{
+			"media_id": "556508-3663_SK",
+			"area_id": "2183",
+			"local_coverage": false
+		},
+		{
+			"media_id": "556508-3663_SK",
+			"area_id": "2184",
+			"local_coverage": false
+		},
+
+		{
+			"media_id": "556284-2970_DINLT",
 			"area_id": "2104",
 			"local_coverage": true
 		},
 		{
-			"media_id": "556284-2970_DINLT";
+			"media_id": "556284-2970_DINLT",
 			"area_id": "2181",
 			"local_coverage": true
 		}
