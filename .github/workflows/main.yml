@@ -8,9 +8,8 @@ on:
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
-    env: 
-      CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
-      CI_COMMIT_AUTHOR: Continuous Integration
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -25,11 +24,5 @@ jobs:
       - name: Run Python script
         run: python tool/build.py
 
-      - name: GIT commit and push all changed files
-        run: |
-          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-          git config --global user.email "username@users.noreply.github.com"
-          git add processed
-          git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
 
