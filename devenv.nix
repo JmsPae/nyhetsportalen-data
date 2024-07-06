@@ -6,6 +6,7 @@
 
   packages = [
     pkgs.pyright
+    pkgs.sqlite
   ];
 
   languages.python = { 

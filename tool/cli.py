@@ -1,18 +1,43 @@
 import os
-import pyarrow as pa
-from pyarrow import dataset, json as pajson
+
+import sqlite3
 
 import typer
+import json
 
 app = typer.Typer()
 
+def insertJson(path: str, cursor: sqlite3.Cursor):
+    jsonData = json.load(open(path, 'r'))
+
+    table: str = list(jsonData.keys())[0]
+
+    for entry in jsonData[table]:
+        columns = ', '.join(entry.keys())
+        placeholders = ':'+', :'.join(entry.keys())
+        query = f'INSERT INTO {table} ({columns}) VALUES ({placeholders})'
+
+        print(entry)
+        cursor.execute(query, entry)
+    
 @app.command()
 def build():
-    table = pajson.read_json(f"{os.path.dirname(__file__)}/../data/media.json")
+    con = sqlite3.connect(f"{os.path.dirname(__file__)}/../data/db.sqlite")
 
-    ds = dataset.dataset(table)
+    file = open(f"{os.path.dirname(__file__)}/../sql/create.sql", 'r')
+    cur = con.cursor()
 
-    dataset.write_dataset(ds, f"{os.path.dirname(__file__)}/../dist", format="arrow", schema=ds.schema)
+
+    cur.executescript(file.read())
+
+    insertJson("data/media.json", cur)
+    insertJson("data/concerns.json", cur)
+    insertJson("data/names.json", cur)
+    insertJson("data/coverage.json", cur)
+
+    con.commit()
+
+
 
 if __name__ == "__main__":
     app()
