@@ -24,6 +24,9 @@ jobs:
       - name: Run Python script
         run: python tool/build.py
 
+      - name: Create compressed database
+        run: gzip < processed/db.sqlite > processed/db.sqlite.gz
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Built processed
