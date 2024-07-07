@@ -1,7 +1,7 @@
 # data/names.json
 
 ## På Svenska
-GÖR FÖRFAN
+TODO
 
 ---
 ## In English
@@ -12,17 +12,15 @@ This JSON file contains the names for each outlet in multiple languages.
 ```json
 {
     "names" : [
-        ...
         {
             "id": "654321-1234_TL",
 
-            "name_eng": "Testar Lokalt",
+            "name_swe": "Testar Lokalt",
             "name_short_swe": "TL",
             
             "name_eng": "Testing Local",
             "name_short_eng": "TL"
-        },
-        ...
+        }
     ]
 }
 ```
@@ -39,3 +37,14 @@ specified in the outlet's entry in `data/media.json`, even if duplicates occur.
 #### `name_short_xxx`
 A short acronym or abbreviation used by the outlet in a respective language. See above for more details.
 
+### Practical Example (Din Lokaltidning)
+
+
+```json		
+        {
+            "id": "556284-2970_DINLT",
+
+			"name_swe": "Din Lokaltidning",
+			"name_short_swe": "DINLT"
+		}
+```
