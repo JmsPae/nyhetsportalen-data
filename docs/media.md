@@ -22,6 +22,8 @@ Below is a full example containing all fields.
             "logo": "556508-3663_LJ.svg",
 			"logo_small": "556508-3663_LJ_small.svg",
 
+            "color": "#ffffff",
+
             "url": "https://www.doesntexist.se/",
             "languages": "swe,eng",
 
@@ -88,6 +90,11 @@ coherent with the outlet's `id`.
 `logo_small` should be excluded if the main logo is already of a square aspect ratio and easily legible, or is unable
 to be found.
 
+#### `color`
+The primary branding color used by the outlet as a [hex triplet](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet).
+
+If a branding page cannot be found, sample the primary color of the logo. Prefer lower-case hexadecimal letters.
+
 #### `url`
 The URL for the outlet. Exclude only if the outlet has zero web presence regardless of whether or not the outlet
 publishes articles online.
@@ -132,6 +139,8 @@ Whether or nor some or all of the outlets web articles are behind a paywall.
 
 			"logo": "556508-3663_GD.svg",
 			"logo_small": "556508-3663_GD_small.svg",
+
+			"color": "#285789",
 
             "url": "https://www.gd.se/",
             "languages": "swe",
