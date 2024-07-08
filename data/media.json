@@ -7,6 +7,8 @@
 			"logo": "556508-3663_AB.svg",
 			"logo_small": "556508-3663_AB_small.svg",
 
+			"color": "#911f2f",
+
             "url": "https://www.arbetarbladet.se/",
             "languages": "swe",
 
@@ -24,6 +26,8 @@
 
 			"logo": "556508-3663_GD.svg",
 			"logo_small": "556508-3663_GD_small.svg",
+
+			"color": "#285789",
 
             "url": "https://www.gd.se/",
             "languages": "swe",
@@ -43,6 +47,8 @@
 			"logo": "556508-3663_HT.svg",
 			"logo_small": "556508-3663_HT_small.svg",
 
+			"color": "#ba3738",
+
             "url": "https://www.ht.se/",
             "languages": "swe",
 
@@ -60,6 +66,8 @@
 
 			"logo": "556508-3663_LJP.svg",
 			"logo_small": "556508-3663_LJP_small.svg",
+
+			"color": "#058c73",
 
             "url": "https://www.ljusdalsposten.se/",
             "languages": "swe",
@@ -79,6 +87,8 @@
 			"logo": "556508-3663_LJ.svg",
 			"logo_small": "556508-3663_LJ_small.svg",
 
+			"color": "#006a91",
+
             "url": "https://www.ljusnan.se/",
             "languages": "swe",
 
@@ -96,6 +106,8 @@
 
 			"logo": "556508-3663_SK.svg",
 			"logo_small": "556508-3663_SK_small.svg",
+
+			"color": "#c52038",
 
             "url": "https://www.soderhamnskuriren.se/",
             "languages": "swe",
@@ -115,6 +127,8 @@
 
 			"logo": "556284-2970_DINLT.svg",
 			"logo_small": "556284-2970_DINLT_small.svg",
+
+			"color": "#006eb6",
 
             "url": "https://www.dinlt.se/",
             "languages": "swe",

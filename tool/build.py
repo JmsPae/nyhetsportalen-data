@@ -14,23 +14,30 @@ def insertJson(path: str, cursor: sqlite3.Cursor):
         placeholders = ':'+', :'.join(entry.keys())
         query = f'INSERT INTO {table} ({columns}) VALUES ({placeholders})'
 
-        print(entry)
-        cursor.execute(query, entry)
+        try:
+            cursor.execute(query, entry)
+        except sqlite3.Error as sqliteError:
+            print("Error inserting Json:")
+            print(entry)
+            print("SQLite Error:", sqliteError)
+            exit(100)
 
 if __name__ == "__main__":
     output = f"{os.path.dirname(__file__)}/../processed/db.sqlite"
+    tmpFile = f"{os.path.dirname(__file__)}/tmp.sqlite"
 
     try:
         os.mkdir(f"{os.path.dirname(__file__)}/../processed")
     except:
         print("Output folder exists, skipping")
 
-    try:
-        os.remove(output)
-    except:
-        print("Output doesn't exist, skip deletion")
 
-    con = sqlite3.connect(output)
+    try:
+        os.remove(tmpFile)
+    except:
+        print("tmp.sqlite doesn't exist, skip deletion")
+
+    con = sqlite3.connect(tmpFile)
 
     file = open(f"{os.path.dirname(__file__)}/../sql/create.sql", 'r')
     cur = con.cursor()
@@ -38,9 +45,19 @@ if __name__ == "__main__":
 
     cur.executescript(file.read())
 
-    insertJson("data/media.json", cur)
     insertJson("data/concerns.json", cur)
+    insertJson("data/media.json", cur)
     insertJson("data/names.json", cur)
     insertJson("data/coverage.json", cur)
 
     con.commit()
+    con.close()
+    print("Done!")
+
+    try:
+        os.remove(output)
+    except:
+        print("Output doesn't exist, skip deletion")
+
+    os.replace(tmpFile, output)
+
