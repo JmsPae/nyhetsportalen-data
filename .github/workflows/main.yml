@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout code
+      - name: Checkout PR
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -31,4 +31,4 @@ jobs:
         with:
           commit_message: Built processed
           push_options: '-f'
-
+    
