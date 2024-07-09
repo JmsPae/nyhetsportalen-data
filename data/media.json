@@ -120,7 +120,30 @@
             "free": false,
             "paywall": true
         },
+				
 
+		{
+            "id": "556508-3663_SDT",
+            "parent": "556508-3663",
+
+			"logo": "556508-3663_SDT.svg",
+			"logo_small": "556508-3663_SDT_small.svg",
+
+			"color": "#000000",
+
+            "url": "https://www.sodran.se/",
+            "languages": "swe",
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": false,
+            "paywall": true
+        },
+
+		
 		{
             "id": "556284-2970_DINLT",
             "org_num": "556284-2970",
@@ -140,6 +163,27 @@
             
             "free": true,
             "paywall": false
-        }
+        },
+
+		{
+            "id": "556363-1620_LI",
+            "org_num": "556363-1620",
+
+			"logo": "556363-1620_LI.webp",
+			"logo_small": "556363-1620_LI_small.webp",
+
+			"color": "#e4383b",
+
+            "url": "https://lokalti.se/",
+            "languages": "swe",
+
+            "prefer_short": false,
+
+            "web": true,
+            "paper": true,
+            
+            "free": true,
+            "paywall": false
+		}
     ]
 }

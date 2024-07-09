@@ -2,12 +2,14 @@ import os
 import sqlite3
 import json
 
-# For the sake of testing
+combi = {}
 
 def insertJson(path: str, cursor: sqlite3.Cursor):
     jsonData = json.load(open(path, 'r'))
 
     table: str = list(jsonData.keys())[0]
+
+    combi[table] = jsonData[table] 
 
     for entry in jsonData[table]:
         columns = ', '.join(entry.keys())
@@ -24,6 +26,8 @@ def insertJson(path: str, cursor: sqlite3.Cursor):
 
 if __name__ == "__main__":
     output = f"{os.path.dirname(__file__)}/../processed/db.sqlite"
+    jsonCombiOutput = f"{os.path.dirname(__file__)}/../processed/combi.json"
+
     tmpFile = f"{os.path.dirname(__file__)}/tmp.sqlite"
 
     try:
@@ -45,10 +49,13 @@ if __name__ == "__main__":
 
     cur.executescript(file.read())
 
+    # In order of dependencies
     insertJson("data/concerns.json", cur)
     insertJson("data/media.json", cur)
     insertJson("data/names.json", cur)
     insertJson("data/coverage.json", cur)
+
+    cur.execute("PRAGMA optimize");
 
     con.commit()
     con.close()
@@ -61,3 +68,5 @@ if __name__ == "__main__":
 
     os.replace(tmpFile, output)
 
+    with open(jsonCombiOutput, 'w') as f:
+        json.dump(combi, f)
